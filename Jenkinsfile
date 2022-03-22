@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'Built-In Node'
+        label 'windows_slave_agent'
     }
     stages {
         stage('Build') {
