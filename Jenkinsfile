@@ -17,15 +17,14 @@ pipeline {
         always {
           junit 'target/surefire-reports/*.xml'
         }
-
       }
-      stage('Deploy') {
-      steps {
-        bat 'mvn clean Deploy'
-      }
-    }
       steps {
         bat 'mvn test'
+      }
+    }
+     stage('Deploy') {
+      steps {
+        bat 'mvn clean Deploy'
       }
     }
 
