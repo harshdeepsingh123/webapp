@@ -20,6 +20,13 @@
     <url>http://localhost:8081/nexus/content/repositories/upes/</url>
     </repository>
 </repositories>
+  distributionManagement>
+<repository>
+<id>upes</id>
+<name>Releases</name>
+<url>http://localhost:8081/nexus/content/repositories/upes/</url>
+</repository>
+</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
