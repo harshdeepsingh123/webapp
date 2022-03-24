@@ -20,7 +20,7 @@
     <url>http://localhost:8081/nexus/content/repositories/upes/</url>
     </repository>
 </repositories>
-  distributionManagement>
+  <distributionManagement>
 <repository>
 <id>upes</id>
 <name>Releases</name>
