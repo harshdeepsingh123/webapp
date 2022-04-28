@@ -26,7 +26,7 @@ pipeline {
 //       steps {
 //         bat 'mvn clean deploy'
 //       }
-    }
+   // }
 
   }
 }
