@@ -22,11 +22,7 @@ pipeline {
         bat 'mvn test'
       }
     }
-     stage('Deploy') {
-      steps {
-        bat '/var/deployment/./deployment.sh'
-      }
-   }
+    
 
   }
 }
