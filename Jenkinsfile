@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'slave02'
+      label 'window_slave_agent'
     }
 
   }
@@ -22,10 +22,6 @@ pipeline {
         bat 'mvn test'
       }
     }
-    stage('Deploy'){
-      steps{
-          sh '/var/deployment/./deployment.sh'
-      }
-    }
+
   }
 }
