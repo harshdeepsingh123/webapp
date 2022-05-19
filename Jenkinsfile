@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'window_slave_agent'
+      label 'windows_slave_agent'
     }
 
   }
